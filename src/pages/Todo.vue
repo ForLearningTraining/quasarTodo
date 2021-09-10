@@ -21,11 +21,11 @@
         </template>
       </q-input>
     </div>
- <q-list 
- class="bg-white"
- separator
- bordered
- >
+    <q-list 
+    class="bg-white"
+    separator
+    bordered
+    >
       <q-item  
       v-for="(task, index) in tasks"
       :key="task.title"
@@ -128,5 +128,4 @@ export default defineComponent({
 .no-tasks{
   opacity: 0.5;
 }
-
 </style>
